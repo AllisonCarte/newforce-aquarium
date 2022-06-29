@@ -1,0 +1,75 @@
+* {
+    box-sizing:content-box;
+}
+
+body {
+    color: white;
+    background: url(https://data.whicdn.com/images/318868622/original.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#fishImage {
+    width: 40%;
+    border-radius: 10%;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main>article {
+    flex: 2;
+    order: 1;
+}
+
+#main>section {
+    margin-right: 10%;
+    flex: 1;
+    order: 2;
+
+}
+
+#main>aside {
+    flex: 0.4;
+    order: 3;
+}
+
+header {
+    color: white;
+    background: rgb(71, 73, 84,);
+    height: 10vh;
+}
+
+#fishTips {
+    width: auto;
+    margin-top: 10.2%;
+    height: auto;
+}
+
+#Aside {
+    margin-top: 4%;
+}
+
+#tankCare {
+    height: auto;
+    width: auto;
+}
+
+#harvestDiv {
+    width:auto;
+    margin-top: 10%;
+    
+}
+
+header,
+article,
+aside {
+    padding: 1em;
+}
