@@ -8,86 +8,49 @@
 </head>
 
 <body>
-  <header id="header">
+  <header id="aquariumHeader">
     <h1 id="h1">Martin's Aquarium</h1>
   </header>
-  <main id="main">
-
-    <!-- This article contains the fish information -->
-    <article>
-      <!-- This is the fish information div -->
-      <div>
-        <h2>Fish Information</h2>
-        <img id="fishImage" src="https://th.bing.com/th/id/OIP.TfsfIWzd0DK1RM5_tJLRRgHaE8?pid=ImgDet&rs=1"
-          alt="A small, yellow boxfish">
-        <h5>Name</h5>
-        Artie
-        <h5>Species</h5>
-        Silvertip Tetra
-        <h5>Length</h5>
-        1.2 inches
-
-        <h5>Location</h5>
-        South America
-
-        <h5>Diet</h5>
-        Omnivorous
-      </div>
-    </article>
-
+  <main id="aquariumMain">
+    <article id="aquariumArticle"></article>
     <!-- This holds the divs for fish harvesting locations and Martin's location tips/quotes -->
-    <section>
-
+    <section id="aquariumSection">
       <!-- The div for Martin's location tips -->
       <div id="fishTips">
         <h2>Travel Tips</h3>
-          The São Francisco is navigable throughout the year between Pirapora and the twin
-          cities of Petrolina and Juazeiro. However, one should still take caution when doing so. There
-          are large variations in depth depending on the rainfall.
-          <br>
-          <br>
-          Based on the climate and weather in São Francisco do Sul, the best time to go is November.
+          When choosing a location from which to harvest your fish, be sure to take into account the navigability of the area, the
+          best time of year to take your trip, and the dangers inherent to the area.
       </div>
 
       <!-- This is the div for Martin's fish harvesting locations -->
       <div id="harvestDiv">
-        <h2>Harvest Location</h2>
-        <h5>Area</h5>
-        Sao Fransisco River
-        <h5>Country</h5>
-        Brasil
-        <h5>Area Coverage</h5>
-        637,000 sq km (246,000 sq mi)
+        <h2>Harvest Locations</h2>
+        <div>South America</div>
+        <div>North America</div>
       </div>
     </section>
-
     <!-- Our aside for tank care tips and info -->
-    <aside id="Aside">
+    <aside id="tankAside">
 
-      <!-- Tank care tips div -->
-      <div id="tankCare">
+      <!-- Tank care tips section -->
+      <section id="careSection">
         <h2>Tank Care Tips</h2>
         <h5>Tank Cleaning</h5>
-        Test your water for vital parameters: pH, carbonate hardness, nitrite, and nitrate.
-        <br>
-        Clean the aquarium walls.
-        <br>
-        Start from the bottom upward and
-        <br>
-        rinse filter floss or scrubber frequently.
-        <br>
-        Vacuum the gravel.
-        <br>
-        Change 10-15% of the water.
-        <br>
-        Rinse filter inserts with the extracted water.
+        <div>Test your water for vital parameters.</div>
+        <div>Clean the aquarium walls.</div>
+        <div>Start from the bottom upward and rinse filter floss or scrubber frequently.</div>
+        <div>Vacuum the gravel.</div>
+        <div> Change 10-15% of the water.</div>
+        <div>Rinse filter inserts with the extracted water.</div>
         <h5> Salinity</h5>
-        0.5 ppt
+        <div>Salinity is measured in parts per trillion and varies from species to species. </div>
         <h5>Water temperature</h5>
-        64°F to 82°F (around 72 to 74 degrees is ideal)
-      </div>
+        <div>The ideal water temperature varies from species to species.</div>
+      </section>
+
     </aside>
   </main>
+  <script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>

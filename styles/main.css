@@ -1,5 +1,5 @@
 * {
-    box-sizing:content-box;
+    box-sizing: content-box;
 }
 
 body {
@@ -14,58 +14,46 @@ body {
     margin: 0;
 }
 
-#fishImage {
-    width: 40%;
-    border-radius: 10%;
+header {
+    color: white;
+    background: rgb(71, 73, 84, );
+    height: 10vh;
+}
+.fishImage {
+    width: 20%;
 }
 
-#main {
+#aquariumArticle {
+    flex: 3;
+    order: 1;
+    padding-right: 5%;
+}
+
+#aquariumSection {
+    flex: 1.5;
+    order: 2;
+}
+
+#aquariumMain {
     display: flex;
     flex: 1;
 }
 
-#main>article {
-    flex: 2;
-    order: 1;
-}
-
-#main>section {
-    margin-right: 10%;
-    flex: 1;
-    order: 2;
-
-}
-
-#main>aside {
-    flex: 0.4;
+#tankAside {
+    flex: 0.5;
     order: 3;
 }
 
-header {
-    color: white;
-    background: rgb(71, 73, 84,);
-    height: 10vh;
-}
-
 #fishTips {
+    padding-top: 5%;
     width: auto;
-    margin-top: 10.2%;
     height: auto;
-}
-
-#Aside {
-    margin-top: 4%;
-}
-
-#tankCare {
-    height: auto;
-    width: auto;
+    padding-bottom: 5%;
 }
 
 #harvestDiv {
-    width:auto;
-    margin-top: 10%;
-    
+    padding-top: 25%;
+    width: auto;
 }
 
 header,
